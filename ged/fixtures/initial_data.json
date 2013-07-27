@@ -1,0 +1,29 @@
+[
+  {
+    "model": "ged.Document",
+    "pk": 1,
+    "fields": {
+      "title": "Document 42",
+      "pub_date": "2013-03-16T17:41:28+00:00",
+      "version": "42"
+    }
+  },
+    {
+    "model": "ged.Document",
+    "pk": 1,
+    "fields": {
+      "title": "Document de merde",
+      "pub_date": "2013-03-16T17:41:28+00:00",
+      "version": "4"
+    }
+  },
+    {
+    "model": "ged.Document",
+    "pk": 1,
+    "fields": {
+      "title": "Document super coool",
+      "pub_date": "2013-03-16T17:41:28+00:00",
+      "version": "1"
+    }
+  }
+]
