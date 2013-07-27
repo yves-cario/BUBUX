@@ -1,0 +1,9 @@
+{% if documents %}
+  <ul>
+    {% for doc in documents %}
+      <li>{{ doc.title }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No documents available</p>
+{% endif %}
