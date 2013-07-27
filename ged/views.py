@@ -1,13 +1,9 @@
-from django.http import HttpResponse
-from django.template import RequestContext, loader
+from django.shortcuts import render
 
 from ged.models import Document
 
 def index(request):
     documents = Document.objects.all()
-    template = loader.get_template('ged/index.html')
-    context = RequestContext(request, {
-        'documents': documents
-    })
+    context = {'documents': documents}
 
-    return HttpResponse(template.render(context))
+    return render(request, 'ged/index.html', context)
