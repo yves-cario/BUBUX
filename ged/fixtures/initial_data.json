@@ -10,7 +10,7 @@
   },
     {
     "model": "ged.Document",
-    "pk": 1,
+    "pk": 2,
     "fields": {
       "title": "Document de merde",
       "pub_date": "2013-03-16T17:41:28+00:00",
@@ -19,7 +19,7 @@
   },
     {
     "model": "ged.Document",
-    "pk": 1,
+    "pk": 3,
     "fields": {
       "title": "Document super coool",
       "pub_date": "2013-03-16T17:41:28+00:00",
